@@ -183,8 +183,8 @@
   display: inline-block;
   text-align: left; 
 }
-.highlight {
-  background-color: #A7A7A7;
+.highlight {  
+  background-color: rgba(208, 208, 208, .4);
   border-radius: 5%;
 }
 /* ===== END OF CONTACT SECTION ===== */
