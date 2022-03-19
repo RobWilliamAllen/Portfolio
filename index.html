@@ -2,16 +2,16 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Rob Allen Portfolio</title>
+  <title>Rob Allen Web Design</title>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <!-- ===== NAVBAR SECTION ===== -->
-   <nav class="navbar navbar-default navbar-expand-lg nav-menu">
+    <nav class="navbar navbar-default navbar-expand-lg nav-menu">
       <div class="container-fluid">
         <a href="#top-section" class="navbar-brand text-uppercase">Home</a>
         <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -38,15 +38,16 @@
 <!-- ===== END OF NAVBAR SECYION ===== -->
 <!-- ===== TOP SECTION ===== -->
   <section id="top-section">
-    <div class="container-fluid">      
+    <div id="reactColours"></div>      
+    <div class="container-fluid nameBox p-5">        
       <div class="row justify-content-center">        
         <div class="col-12">
-          <h1 class="text-center text-white text-uppercase name-text">Rob Allen</h1>
+          <h1 class="text-center text-uppercase name-text">Rob Allen</h1>
         </div>
         <div class="col-12">
-          <p class="lead text-center text-uppercase text-white name-subtext">Front End Development</p>
+          <p class="lead text-center text-uppercase name-subtext">Front End Development</p>
         </div>        
-      </div>        
+      </div>    
     </div>      
   </section>
 <span id="end-of-top-section" />
@@ -64,7 +65,7 @@
            <img src="https://github.com/RobWilliamAllen/Portfolio/blob/main/photoSelf.jpg?raw=true" class="imageSelf">
         </div>         
         <div class="col-xl-6 text-left m-3 about-text about-bg"> 
-         <p>Hi, I'm Rob and I'm a front end developer. I create clean, responsive web pages.</p>
+         <p>Hi, I'm Rob and I'm a front end developer.</p>
          <p>Please check out the pieces in my portfolio or use the contact form to get in touch.</p>           
         </div>        
       </div> 
@@ -72,11 +73,9 @@
         <div class="col-xl-5 border-right">
           <p class="about-text font-weight-bold">Skills:</p>       
           <ul class="about-subtext">
-            <li>HTML</li>
-            <li>CSS/SCSS</li>
-            <li>JavaScript/React</li>
-            <li>GitHub</li>
-            <li>Wordpress</li>
+            <li>HTML, CSS & JavaScript/React</li>
+            <li>Wordpress Theme development</li> 
+            <li>Adobe Suite & Photoshop</li>      
           </ul>                   
         </div> 
       
@@ -90,7 +89,7 @@
   </section>  
   <!-- ===== END OF ABOUT SECTION ===== -->   
   <!-- ===== PORTFOLIO SECTiON ===== -->  
-<section id="portfolio-section">
+<section id="portfolio-section">  
   <div class="container-fluid text-white pb-5">
     <div class="row text-center text-uppercase pt-5">
       <hr class="col hr-white">
@@ -98,7 +97,14 @@
       <hr class="col hr-white">         
     </div>   
   <div class="container-fluid mb-5">
-    <div class="row justify-content-center my-5">    
+    <div class="row justify-content-center my-5"> 
+      <div class="card text-center mx-5 mb-5">
+         <div class="content-overlay card-container">       
+          <p class="content-text">Yoga Website Created for Client in Wordpress</p> 
+          <a href="https://mybodymyoga.co.uk/" target="_blank" class="btn btn-primary content-text">Visit Page</a> 
+         </div>        
+         <img class="card-img-top card-image" src="https://github.com/RobWilliamAllen/Portfolio/blob/main/yogaScreenshot.png?raw=true" alt="Card image cap">       
+       </div>       
        <div class="card text-center mx-5 mb-5">
          <div class="content-overlay card-container">       
           <p class="content-text">Conceptual Pet Store Product Page</p>          
@@ -112,15 +118,8 @@
           <a href="https://robwilliamallen.github.io/ColouringInApp/" target="_blank" class="btn btn-primary content-text">Visit Page</a> 
          </div>        
          <img class="card-img-top card-image" src="https://github.com/RobWilliamAllen/Portfolio/blob/main/ColouringInApp.png?raw=true" alt="Card image cap">       
-       </div>         
+       </div>  
        <div class="card text-center mx-5 mb-5">
-         <div class="content-overlay card-container">       
-          <p class="content-text">React Coffee Recommendations App</p> 
-          <a href="https://robwilliamallen.github.io/CoffeeSuggestionApp/" target="_blank" class="btn btn-primary content-text">Visit Page</a> 
-         </div>        
-         <img class="card-img-top card-image" src="https://github.com/RobWilliamAllen/Portfolio/blob/main/coffee.jpeg?raw=true" alt="Card image cap">       
-       </div>       
-      <div class="card text-center mx-5 mb-5">
          <div class="content-overlay card-container text-white">         
            <p class="content-text px-2">Ski Chalet Landing Page </p>
            <a href="https://robwilliamallen.github.io/SkiChalet/" target="_blank" class="btn btn-primary content-text">Visit Page</a>
@@ -202,8 +201,14 @@ https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+<!-- Load our React component. -->
+<script src="script.js"></script>
 <!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/react@17/umd/react.development.js'></script>
+<script src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
