@@ -1,3 +1,4 @@
+
 /* ===== NAVBAR SECTION ===== */
 .navbar-brand {
     color: white;
@@ -97,6 +98,26 @@
 .name-subtext {
   font-size: 2vw;
 }
+
+@media (max-width:40em) {
+    .nameBox {
+      width: 75vw;
+    }   
+}
+
+@media (max-width:40em) {
+    .name-text {
+      font-size: 50px;
+    }   
+}
+
+@media (max-width:40em) {
+     .name-subtext {
+      font-size: 40px;
+  }
+}
+
+
 button {
    background-color: #FFFFFF;
 }
@@ -203,3 +224,9 @@ button {
   border-radius: 5%;
 }
 /* ===== END OF CONTACT SECTION ===== */
+
+
+
+
+ 
+
