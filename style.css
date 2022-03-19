@@ -99,19 +99,19 @@
   font-size: 2vw;
 }
 
-@media (max-width:950px) {
+@media screen and (max-width: 992px) {
     .nameBox {
       width: 100%;
     }   
 }
 
-@media (max-width:950px) {
+@media screen and (max-width: 992px) {
     .name-text {
       font-size: 50px;
     }   
 }
 
-@media (max-width:950px) {
+@media screen and (max-width: 992px) {
      .name-subtext {
       font-size: 40px;
   }
