@@ -78,24 +78,41 @@
 /* ===== END OF NAVBAR SECTION ===== */
 
 /* ===== TOP SECTION ===== */
-#top-section {
-    background: linear-gradient(
-        rgba(0, 0, 0, .2), 
-        rgba(0, 0, 0, .5)),   
-        url('https://github.com/RobWilliamAllen/Portfolio/blob/main/WilderKaiser3.jpg?raw=true');   
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#top-section {  
+    height: 100vh;    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+
+.nameBox {
+  position: absolute;
+  width: 25vw;  
+  height: 15vw;
+  background-color: white; 
 }
 .name-text {
-  font-size: 4em;
+  font-size: 3vw; 
 }
 .name-subtext {
-  font-size: 2.5em;
+  font-size: 2vw;
+}
+button {
+   background-color: #FFFFFF;
+}
+
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white; 
+}
+
+.square {  
+  height: 4vw;
+  width: 4vw;
+  align-content: stretch;
+  flex-basis: auto;  
+  border: 0px solid white;
 }
 
 /* ===== END OF TOP SECTION =====*/
@@ -110,12 +127,10 @@
   height: 350px;
 }
 .about-text {
-  font-size: 35px;
-  
+  font-size: 35px;  
 }
 .about-bg {
-  background-color: rgba(208, 208, 208, .4);
-  border-radius: 5%;
+  background-color: rgba(208, 208, 208, .4); 
 }
 .about-subtext {
   font-size: 28px;
